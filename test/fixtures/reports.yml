@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo_reporte: MyString
+  fecha_inicial: 2016-07-21
+  fecha_final: 2016-07-21
+
+two:
+  tipo_reporte: MyString
+  fecha_inicial: 2016-07-21
+  fecha_final: 2016-07-21

@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Users:</strong>
+  <%= @story.users_id %>
+</p>
+
+<p>
+  <strong>Motivo consulta:</strong>
+  <%= @story.motivo_consulta %>
+</p>
+
+<p>
+  <strong>Enfermedad actual:</strong>
+  <%= @story.enfermedad_actual %>
+</p>
+
+<p>
+  <strong>Examen fisico:</strong>
+  <%= @story.examen_fisico %>
+</p>
+
+<p>
+  <strong>Diagnostico:</strong>
+  <%= @story.diagnostico %>
+</p>
+
+<p>
+  <strong>Analisis:</strong>
+  <%= @story.analisis %>
+</p>
+
+<p>
+  <strong>Plan mejora:</strong>
+  <%= @story.plan_mejora %>
+</p>
+
+<%= link_to 'Edit', edit_story_path(@story) %> |
+<%= link_to 'Back', stories_path %>

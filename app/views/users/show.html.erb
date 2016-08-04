@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombres:</strong>
+  <%= @user.nombres %>
+</p>
+
+<p>
+  <strong>Apellidos:</strong>
+  <%= @user.apellidos %>
+</p>
+
+<p>
+  <strong>Tipo documento:</strong>
+  <%= @user.tipo_documento %>
+</p>
+
+<p>
+  <strong>No documento:</strong>
+  <%= @user.no_documento %>
+</p>
+
+<p>
+  <strong>Edad:</strong>
+  <%= @user.edad %>
+</p>
+
+<p>
+  <strong>Genero:</strong>
+  <%= @user.genero %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @user.direccion %>
+</p>
+
+<p>
+  <strong>Municipio:</strong>
+  <%= @user.municipio %>
+</p>
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @user.telefono %>
+</p>
+
+<p>
+  <strong>Aseguradora:</strong>
+  <%= @user.aseguradora %>
+</p>
+
+<p>
+  <strong>Tipo afiliacion:</strong>
+  <%= @user.tipo_afiliacion %>
+</p>
+
+<p>
+  <strong>Antecedentes:</strong>
+  <%= @user.antecedentes %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,55 @@
+<div class="cont_new" id=""> 
+  <div class="menu" id=""><a href="http://localhost:3000/calendars">
+    <%= image_tag '1467509018_Icon_Business_Set_00002_A.png', class: "icono_admision_new3" %><p class="parra">Agenda</p> </a></div>
+
+    <div class="menu" id=""><a href="http://localhost:3000/stories">
+     <%= image_tag '1467510992_medical_icon_4.png', class: "icono_admision_new3" %><p class="parra">Historia Clinica</p> </a></div>
+     
+    <div class="menu" id=""><a href="">
+     <%= image_tag '1468874758_gnome-system-config.png', class: "icono_admision_new3" %><p class="parra">Configuracion</p> </a></div>
+
+   </div>
+
+   <div class="social">
+   <ul style="list-style-type:none">
+   <li><a href="http://localhost:3000/">    
+   <%= image_tag 'atras.png', class: "atras" %> </a>
+   </li>     
+   </ul>         
+   </div> 
+
+
+<div class="reportes">
+    <label class="otro"> <p class="calendarp"> Tipo de Reporte </p>  
+     <select class="form-control">
+     <option></option>
+     <option> RIPS</option>
+     <option> Tarifas </option> 
+     <option> Informe Monetario </option> 
+     <option> Informe de Oportunidad </option>
+     </select>
+     </label>
+
+     <label class="otro"> <p class="calendarp"> Seleccionar Formato </p>  
+     <select class="form-control">
+     <option></option>
+     <option> Excel</option>
+     <option> PDF </option> 
+     <option> TXT </option>
+     </select>
+     </label>
+
+  <label class=""><br>Fecha Inicial   <br>
+  <input type="date"  id="casillasua" >     
+  </label>
+
+  <label class=""><br>Fecha Final   <br>
+  <input type="date"  id="casillasua" > 
+  
+  </label>
+
+  <button type="button" class="btn btn-info btn-sm"> <%= image_tag '1469139027_download.png', class: "ic" %>Descargar </button>
+  <button type="button" class="btn btn-info btn-sm"> <%= image_tag '1469140079_view.png', class: "ic" %>Visualizar</button>
+
+</div>
+

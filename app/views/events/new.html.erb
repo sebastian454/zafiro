@@ -1,0 +1,324 @@
+<div class="cont_new" id=""> 
+
+    <div class="menu" id=""><a href="http://localhost:3000/stories">
+     <%= image_tag '1467510992_medical_icon_4.png', class: "icono_admision_new" %><p class="parra">Historia Clinica</p> </a></div>
+     <div class="menu" id=""><a href="http://localhost:3000/reports">
+    <%= image_tag '1467508472_vector_65_14.png', class: "icono_admision_new" %><p class="parra">Reportes</p> </a></div>
+    <div class="menu" id=""><a href="">
+     <%= image_tag '1468874758_gnome-system-config.png', class: "icono_admision_new" %><p class="parra">Configuracion</p> </a></div>
+
+   </div>
+
+   <div class="social">
+   <ul style="list-style-type:none">
+   <li><a href="http://localhost:3000/">    
+   <%= image_tag 'atras.png', class: "atras" %> </a>
+   </li>     
+   </ul>         
+   </div> 
+<div class="info3" ><br>
+  <label for="">Tipo de Cargue</label>  
+   <div class="row">
+       <div class="col-xs-5">
+
+       <select class="form-control">
+       <option></option>
+       <option> Manual</option>
+       <option> Automatico</option>       
+     
+       </select>
+       </div>
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="Ingrese Cargue">
+    </div>
+
+
+  </div>
+     <label for="">Genero</label> 
+      <div class="row">
+    <div class="col-xs-6">
+        <input type="text" class="form-control" placeholder="Nombres">
+    </div>
+    <div class="col-xs-6">
+      <input type="text" class="form-control" placeholder="Apellidos">
+    </div>
+    </div>
+    <label for="">Tipo documento</label>  
+   <div class="row">
+       <div class="col-xs-5">
+
+       <select class="form-control">
+       <option></option>
+       <option> C.C</option>
+       <option> T.I</option>
+       <option> C.E</option>
+       <option> R.C</option>
+       
+     
+       </select>
+       </div>
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="No Documento">
+    </div>
+
+
+  </div>
+     <label for="">Genero</label> 
+   <div class="row">
+       <div class="col-xs-5">
+     
+       <select class="form-control">
+       <option></option>
+       <option> Masculino</option>
+       <option> Femenino</option>
+   
+     
+       </select>
+       </div>
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="Edad">
+    </div>
+  </div>
+    <label for="">Entidad</label> 
+   <div class="row">
+       <div class="col-xs-5">
+     
+       <select class="form-control">
+       <option></option>
+       <option> Particular</option>
+       <option> Subsidiado</option>
+       <option> Cafesalud</option>
+       <option> Nuevaeps</option>
+       <option> Sura</option>
+       <option> Seguros Bolivar</option>
+       
+     
+       </select>
+       </div>
+
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="Telefono">
+    </div>
+  </div>
+   
+       <label for="">Tipo de Afiliado</label> 
+   <div class="row">
+       <div class="col-xs-5">
+     
+       <select class="form-control">
+       <option></option>
+       <option> Cotizante </option>
+       <option> Beneficiario</option>
+       
+     
+       </select>
+       </div>
+
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="Telefono">
+    </div>
+  </div>
+   <br>
+  <div class="row">
+       <div class="col-xs-6">
+          <input type="text" class="form-control" placeholder="Ciudad">
+     
+       </div>
+       <div class="col-xs-6">
+      <input type="text" class="form-control" placeholder="Dx Ingreso">
+    </div>
+  </div>
+ 
+  <br>
+  <div class="row">
+       <div class="col-xs-6">
+          <input type="text" class="form-control" placeholder="Cuota Moderadora">
+     
+       </div>
+       <div class="col-xs-6">
+      <input type="text" class="form-control" placeholder="Copago">
+    </div>
+  </div>
+  <br>
+     
+  <div class="row">
+       <div class="col-xs-6">
+          <input type="text" class="form-control" placeholder="No Autorizacion">
+     
+       </div>
+       <div class="col-xs-6">
+      <input type="text" class="form-control" placeholder="Codigo Atencion">
+    </div>
+  </div>
+  <br>
+     
+   <div class="row">
+       <div class="col-xs-7">
+          <input type="text" class="form-control" placeholder="Observaciones">
+     
+       </div>
+       <div class="col-xs-5">
+      <input type="text-area" class="form-control" placeholder="Alertas">
+    </div>
+  </div>
+     
+   
+  <br>
+
+
+
+
+   <button type="button" class="btn btn-success btn-sm"> Generar Cita</button>
+  </form>
+
+
+
+     </div>
+
+   <div class="parametros">
+
+
+    <label class="otro"> <p class="calendarp"> Horario </p>  
+     <select class="form-control">
+     <option></option>
+     <option> a.m</option> 
+     <option> p.m </option> 
+     </select>
+    </label>
+
+     <label class="otro"> <p class="calendarp"> Tipo de servicio </p>  
+     <select class="form-control">
+     <option></option>
+     <option> 01  Consulta</option>
+     <option> 02  Procedimiento Diagnostico</option>
+     <option> 03  Procedimientos Terapeuticos no Quirurgicos</option>
+     <option> 04  Procedimientos Quirurgicos </option>
+     <option> 05  PyP </option>
+   
+     </select>
+    </label>
+
+      <label class="otro"><p class="calendarp"> Profesional </p> 
+     <select class="form-control">
+     <option></option>
+     <option> Catalina Sanchez</option>
+     <option> Jorge Gomez</option>    
+   
+     </select>
+    </label>
+
+    <button type="button" class="btn btn-success btn-sm"> <%= image_tag 'visualizar.png', class: "ic" %>Buscar Cita</button>
+
+    
+
+   </div>
+
+   <div class="diario">
+   <div class="panel panel-default">
+  <div class="panel-heading">
+    <button type="button" class="btn btn-success">Disponibles</button>
+    <button type="button" class="btn btn-warning">Ocupados</button>
+    <button type="button" class="btn btn-default">Ambos</button></div>
+
+ <table class="table">
+<thead>
+    <tr>
+  
+
+
+      <th>Escoger Cita</th>
+      <th>Hora inicial</th>
+      <th>Hora final</th>
+      <th>Profesional</th>
+    </tr>
+
+  </thead>
+
+  <tbody>
+  
+      <tr>
+        <td>
+          <div class="checkbox">
+           <label>
+      <input type="checkbox"> Seleccion Cita
+           </label>
+         </div>
+        </td>
+        <td><input type="time" class="form-control" placeholder="Campo de texto"></td>
+        <td><input type="time" class="form-control" placeholder="Campo de texto"></td>
+        <td><select class="form-control">
+             <option></option>
+             <option> Catalina Sanchez</option>
+             <option> Jorge Gomez</option>
+             </select>
+        </td>
+        
+       
+        <td><button type="button" class="btn btn-success">Ingreso</button></td>
+        <td><button type="button" class="btn btn-warning">Modificar</button></td>
+        <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+        
+    
+      </tr>
+
+  </tbody>
+       <tbody>
+  
+      <tr>
+        <td>
+          <div class="checkbox">
+           <label>
+      <input type="checkbox"> Seleccion Cita
+           </label>
+         </div>
+        </td>
+        <td><input type="time" class="form-control" placeholder="Campo de texto"></td>
+        <td><input type="time" class="form-control" placeholder="Campo de texto"></td>
+        <td><select class="form-control">
+             <option></option>
+             <option> Catalina Sanchez</option>
+             <option> Jorge Gomez</option>
+             </select>
+        </td>
+        
+        <td><button type="button" class="btn btn-success">Ingreso</button></td>
+        <td><button type="button" class="btn btn-warning">Modificar</button></td>
+        <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+      </tr>
+
+  </tbody>
+  <tbody>
+  
+      <tr>
+        <td>
+          <div class="checkbox">
+           <label>
+      <input type="checkbox"> Seleccion Cita
+           </label>
+         </div>
+        </td>
+        <td><input type="time" class="form-control" placeholder="Campo de texto"></td>
+        <td><input type="time" class="form-control" placeholder="Campo de texto"></td>
+        <td><select class="form-control">
+             <option></option>
+             <option> Catalina Sanchez</option>
+             <option> Jorge Gomez</option>
+             </select>
+        </td>
+        
+        <td><button type="button" class="btn btn-success">Ingreso</button></td>
+        <td><button type="button" class="btn btn-warning">Modificar</button></td>
+        <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+      </tr>
+
+  </tbody>
+
+  </table>
+ 
+
+</div>
+</div>
+
+
+     
+     

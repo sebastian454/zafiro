@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Configurations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Profesional</th>
+      <th>Especialidad profesional</th>
+      <th>Rango profesional</th>
+      <th>Consultorio</th>
+      <th>Rango consutorio</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @configurations.each do |configuration| %>
+      <tr>
+        <td><%= configuration.profesional %></td>
+        <td><%= configuration.especialidad_profesional %></td>
+        <td><%= configuration.rango_profesional %></td>
+        <td><%= configuration.consultorio %></td>
+        <td><%= configuration.rango_consutorio %></td>
+        <td><%= link_to 'Show', configuration %></td>
+        <td><%= link_to 'Edit', edit_configuration_path(configuration) %></td>
+        <td><%= link_to 'Destroy', configuration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Configuration', new_configuration_path %>

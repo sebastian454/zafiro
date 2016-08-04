@@ -1,0 +1,235 @@
+div.cont{
+  margin-top: 3%;
+  margin-bottom: 0px;
+  padding: 0em 0em 0em 0em;
+  border-radius:20px  20px 20px 20px;        
+  width: 13%;
+  height: 45%;
+  float:left;
+  margin-left: 5px; 
+}
+div#unos{background-color:#05105D;        
+}
+div.menu:hover{
+  height: 19  0px; 
+}
+div.menu:hover img.icono_admision{
+-webkit-box-shadow :0px 0px 0px 0px rgba(255,255,255,.7);    
+}
+img.icono_admision {
+ display: block;
+ margin:2px auto;
+ background-color: rgba(255,255,255,.15);
+ width: 55%;
+ padding: 3%;
+-webkit-border-radius: 50%;
+-webkit-box-shadow:0px 0px 0px 30px  rgba(255,255,255,0);
+ -webkit-transition:box-shadow .2s; 
+} 
+p.menus{
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  margin-top: -2px;
+  font-family: verdana;
+  text-decoration: none;
+}
+div.cont_new{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0em 0em 0em 0em;
+  border-radius:20px  20px 20px 20px;        
+  width: 7%; 
+  height: 15%;
+  float:left;
+  margin-left: 5px;
+  position: absolute;
+}
+img.icono_admision_new {
+ display: block;
+ margin: 5px auto;
+ background-color: #9ee37a;
+ width: 55%;
+ padding: 2%;
+-webkit-border-radius: 50%;
+-webkit-box-shadow:0px 0px 0px 30px  rgba(255,255,255,0);
+ -webkit-transition:box-shadow .2s; 
+}
+p.parra{
+  color: black;
+  font-size: 0.85em;
+  top: 0;
+  text-align: center;
+}
+div.parametros{
+	width: 1000px;
+	height:150px;
+	display: block;	
+	margin-left: 21%;
+}
+img.ic{
+  width: 27px;
+  height:24px;
+  margin-right: 5%;
+}
+p.calendarp{
+  text-align: center;
+}
+#calendar{
+    margin: 0px;
+     width: 100%;
+     height: 1%;
+     padding:0px; 
+        
+}
+div.fc-toolbar{
+  margin-top: 1%;
+  padding:0px;
+  width: 70%;
+  height:35%; 
+}
+div.info{
+  margin-top: 9%;
+  float: left;
+  width: 19%;
+  margin-left: 1%;
+  background: #d9ffc6;
+  border-radius: 1%;
+}
+div.ingreso{
+  margin-left: 71%;
+}
+.social {
+  position: fixed;
+  z-index: 2000;
+  margin-left: 92%;
+  }
+.social ul li .atras{
+  width: 35px;
+  height: 35px;
+}
+.social ul li a:hover{
+  padding: 13px 11px;
+  -webkit-box-shadow:2px 2px 2px 2px rgba(19,132,230,.8) ;
+  -webkit-transition:box-shadow .20s; 
+  }
+  img.icono_admision_new2 {
+ display: block;
+ margin: 5px auto;
+ background-color: #7ae3e2;
+ width: 55%;
+ padding: 2%;
+-webkit-border-radius: 50%;
+-webkit-box-shadow:0px 0px 0px 30px  rgba(255,255,255,0);
+ -webkit-transition:box-shadow .2s; 
+}
+div.busqueda{
+width: 75%;
+height:100%;
+display: block; 
+margin-left: 18%;
+background: #e5f0f0; 
+}
+img.icono_orden{
+ width: 45px;
+ margin-left: 28%
+
+ }
+ div.historia{
+  margin-top: 5%;
+width: 75%;
+height: 55%;
+display: block; 
+margin-left: 19%;
+ background:#437a87;
+ border-radius: 3%;
+ 
+} 
+div.info2{
+  margin-top: -3%;
+  float: left;
+  width: 17%;
+  margin-left: 0.5%;
+  background: #d1e1f4;
+  position: fixed;
+  border-radius: 1%;
+}
+label.history{
+  color: white;
+}
+div.reportes{
+  width: 1100px;
+  height:150px;
+  display: block; 
+  margin-left: 13%;
+  background: #f6e0ff;
+  border-radius: 2%;
+
+}
+
+img.icono_admision_new3 {
+ display: block;
+ margin: 5px auto;
+ background-color: #c017f7;
+ width: 55%;
+ padding: 2%;
+-webkit-border-radius: 50%;
+-webkit-box-shadow:0px 0px 0px 30px  rgba(255,255,255,0);
+ -webkit-transition:box-shadow .2s; 
+}
+button.btn-nuevo{
+  color: white;
+  background: #437a87;
+}
+button.btn-nuevo:hover{
+    color:white ;
+    text-decoration: none;
+    background:#47b7d2;
+    
+}
+.diario{
+  height: 50%;
+  width:1000px;
+  margin-left: 22%;
+  background: gray;
+}
+div.info3{
+  display: fixed;
+  margin-top: 19%;
+  float: left;
+  width: 19%;
+  height: 100%;
+  margin-left: 1%;
+  background: #d9ffc6;
+  border-radius: 1%;
+}
+div.numerador{
+  margin-top:6.8%;
+  position: fixed;
+  width: 60px;
+  
+  margin-left: 1%
+
+}
+div.numerador2{
+  margin-top:6.8%;
+  position: fixed;
+  width: 4%;
+  margin-left: 6%;
+  
+}
+div.numerador3{
+  margin-top:6.8%;
+  position: fixed;
+  width: 4%;
+  margin-left: 11.2%;
+
+}
+div.numerador4{
+  margin-top:6.8%;
+  position: fixed;
+  width: 4%;
+  margin-left: 16%;
+
+  
+}

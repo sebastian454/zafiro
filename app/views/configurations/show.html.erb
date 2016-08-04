@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Profesional:</strong>
+  <%= @configuration.profesional %>
+</p>
+
+<p>
+  <strong>Especialidad profesional:</strong>
+  <%= @configuration.especialidad_profesional %>
+</p>
+
+<p>
+  <strong>Rango profesional:</strong>
+  <%= @configuration.rango_profesional %>
+</p>
+
+<p>
+  <strong>Consultorio:</strong>
+  <%= @configuration.consultorio %>
+</p>
+
+<p>
+  <strong>Rango consutorio:</strong>
+  <%= @configuration.rango_consutorio %>
+</p>
+
+<%= link_to 'Edit', edit_configuration_path(@configuration) %> |
+<%= link_to 'Back', configurations_path %>

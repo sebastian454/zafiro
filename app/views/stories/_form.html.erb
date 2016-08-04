@@ -1,0 +1,45 @@
+<%= form_for(@story) do |f| %>
+  <% if @story.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@story.errors.count, "error") %> prohibited this story from being saved:</h2>
+
+      <ul>
+      <% @story.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :users_id %><br>
+    <%= f.number_field :users_id %>
+  </div>
+  <div class="field">
+    <%= f.label :motivo_consulta %><br>
+    <%= f.text_field :motivo_consulta %>
+  </div>
+  <div class="field">
+    <%= f.label :enfermedad_actual %><br>
+    <%= f.text_field :enfermedad_actual %>
+  </div>
+  <div class="field">
+    <%= f.label :examen_fisico %><br>
+    <%= f.text_field :examen_fisico %>
+  </div>
+  <div class="field">
+    <%= f.label :diagnostico %><br>
+    <%= f.text_field :diagnostico %>
+  </div>
+  <div class="field">
+    <%= f.label :analisis %><br>
+    <%= f.text_field :analisis %>
+  </div>
+  <div class="field">
+    <%= f.label :plan_mejora %><br>
+    <%= f.text_field :plan_mejora %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

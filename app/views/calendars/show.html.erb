@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Users:</strong>
+  <%= @calendar.users_id %>
+</p>
+
+<p>
+  <strong>Alertas:</strong>
+  <%= @calendar.alertas %>
+</p>
+
+<p>
+  <strong>Observaciones:</strong>
+  <%= @calendar.observaciones %>
+</p>
+
+<p>
+  <strong>Fecha cita:</strong>
+  <%= @calendar.fecha_cita %>
+</p>
+
+<p>
+  <strong>Servicio:</strong>
+  <%= @calendar.servicio %>
+</p>
+
+<p>
+  <strong>Consultorio:</strong>
+  <%= @calendar.consultorio_id %>
+</p>
+
+<p>
+  <strong>Profesional:</strong>
+  <%= @calendar.profesional_id %>
+</p>
+
+<%= link_to 'Edit', edit_calendar_path(@calendar) %> |
+<%= link_to 'Back', calendars_path %>

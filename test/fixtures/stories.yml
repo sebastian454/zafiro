@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  users_id: 1
+  motivo_consulta: MyString
+  enfermedad_actual: MyString
+  examen_fisico: MyString
+  diagnostico: MyString
+  analisis: MyString
+  plan_mejora: MyString
+
+two:
+  users_id: 1
+  motivo_consulta: MyString
+  enfermedad_actual: MyString
+  examen_fisico: MyString
+  diagnostico: MyString
+  analisis: MyString
+  plan_mejora: MyString

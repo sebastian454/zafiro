@@ -1,0 +1,1 @@
+json.extract! @user, :id, :nombres, :apellidos, :tipo_documento, :no_documento, :edad, :genero, :direccion, :municipio, :telefono, :aseguradora, :tipo_afiliacion, :antecedentes, :created_at, :updated_at

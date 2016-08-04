@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  profesional: MyString
+  especialidad_profesional: MyString
+  rango_profesional: 1
+  consultorio: MyString
+  rango_consutorio: 1
+
+two:
+  profesional: MyString
+  especialidad_profesional: MyString
+  rango_profesional: 1
+  consultorio: MyString
+  rango_consutorio: 1

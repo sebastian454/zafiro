@@ -1,0 +1,37 @@
+<%= form_for(@configuration) do |f| %>
+  <% if @configuration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@configuration.errors.count, "error") %> prohibited this configuration from being saved:</h2>
+
+      <ul>
+      <% @configuration.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :profesional %><br>
+    <%= f.text_field :profesional %>
+  </div>
+  <div class="field">
+    <%= f.label :especialidad_profesional %><br>
+    <%= f.text_field :especialidad_profesional %>
+  </div>
+  <div class="field">
+    <%= f.label :rango_profesional %><br>
+    <%= f.number_field :rango_profesional %>
+  </div>
+  <div class="field">
+    <%= f.label :consultorio %><br>
+    <%= f.text_field :consultorio %>
+  </div>
+  <div class="field">
+    <%= f.label :rango_consutorio %><br>
+    <%= f.number_field :rango_consutorio %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

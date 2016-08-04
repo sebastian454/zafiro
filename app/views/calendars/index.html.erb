@@ -1,0 +1,203 @@
+   
+   <div class="cont_new" id=""> 
+
+    <div class="menu" id=""><a href="http://localhost:3000/stories">
+     <%= image_tag '1467510992_medical_icon_4.png', class: "icono_admision_new" %><p class="parra">Historia Clinica</p> </a></div>
+     <div class="menu" id=""><a href="http://localhost:3000/reports">
+    <%= image_tag '1467508472_vector_65_14.png', class: "icono_admision_new" %><p class="parra">Reportes</p> </a></div>
+    <div class="menu" id=""><a href="">
+     <%= image_tag '1468874758_gnome-system-config.png', class: "icono_admision_new" %><p class="parra">Configuracion</p> </a></div>
+
+   </div>
+
+   <div class="social">
+   <ul style="list-style-type:none">
+   <li><a href="http://localhost:3000/">    
+   <%= image_tag 'atras.png', class: "atras" %> </a>
+   </li>     
+   </ul>         
+   </div> 
+
+
+   <div class="parametros">
+
+
+    <label class="otro"> <p class="calendarp"> Horario </p>  
+     <select class="form-control">
+     <option></option>
+     <option>Ambos</option>
+     <option> a.m</option> 
+     <option> p.m </option> 
+     </select>
+    </label>
+
+     <label class="otro"> <p class="calendarp"> Tipo de servicio </p>  
+     <select class="form-control">
+     <option></option>
+     <option> 01  Consulta</option>
+     <option> 02  Procedimiento Diagnostico</option>
+     <option> 03  Procedimientos Terapeuticos no Quirurgicos</option>
+     <option> 04  Procedimientos Quirurgicos </option>
+     <option> 05  PyP </option>
+   
+     </select>
+    </label>
+
+      <label class="otro"><p class="calendarp"> Profesional </p> 
+     <select class="form-control">
+     <option></option>
+     <option> Catalina Sanchez</option>
+     <option> Jorge Gomez</option>    
+   
+     </select>
+    </label>
+
+    <button type="button" class="btn btn-success btn-sm"> <%= image_tag 'visualizar.png', class: "ic" %>Buscar Cita</button>
+
+    
+<div id="calendar">
+
+     <%= javascript_include_tag 'calendar'%>
+    </div> <br>
+<div class="numerador">
+
+<ul class="nav nav-pills nav-stacked">
+  <li class="active">
+    <a href="#">
+      <span class="badge pull-right">39</span>
+      Dispo
+    </a>
+  </li>
+ 
+  </ul>
+
+</div>
+<div class="numerador2">
+
+<ul class="nav nav-pills nav-stacked">
+  <li class="active">
+    <a href="#">
+      <span class="badge pull-right">14</span><br>
+     Ocup   
+    </a>
+  </li>
+ 
+  </ul>
+
+</div> 
+<div class="numerador3">
+
+<ul class="nav nav-pills nav-stacked">
+  <li class="active">
+    <a href="#">
+      <span class="badge pull-right">15</span>
+      Dispo
+    </a>
+  </li>
+ 
+  </ul>
+
+</div>
+<div class="numerador4">
+
+<ul class="nav nav-pills nav-stacked">
+  <li class="active">
+    <a href="#">
+      <span class="badge pull-right">85</span>
+      Ocup
+    </a>
+  </li>
+ 
+  </ul>
+
+</div>  
+   </div>
+
+
+     <div class="info" ><br>
+      <div class="row">
+    <div class="col-xs-6">
+      <input type="text" class="form-control" placeholder="Nombres">
+    </div>
+    <div class="col-xs-6">
+      <input type="text" class="form-control" placeholder="Apellidos">
+    </div>
+    </div>
+    <label for="">Tipo documento</label>  
+   <div class="row">
+       <div class="col-xs-5">
+
+       <select class="form-control">
+       <option></option>
+       <option> C.C</option>
+       <option> T.I</option>
+       <option> C.E</option>
+       <option> R.C</option>
+       
+     
+       </select>
+       </div>
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="No Documento">
+    </div>
+
+
+  </div>
+     <label for="">Genero</label> 
+   <div class="row">
+       <div class="col-xs-5">
+     
+       <select class="form-control">
+       <option></option>
+       <option> Masculino</option>
+       <option> Femenino</option>
+   
+     
+       </select>
+       </div>
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="Edad">
+    </div>
+  </div>
+    <label for="">Entidad</label> 
+   <div class="row">
+       <div class="col-xs-5">
+     
+       <select class="form-control">
+       <option></option>
+       <option> Particular</option>
+       <option> Cafesalud</option>
+       <option> Nuevaeps</option>
+       <option> Sura</option>
+       <option> Seguros Bolivar</option>
+       
+     
+       </select>
+       </div>
+       <div class="col-xs-7">
+      <input type="text" class="form-control" placeholder="Telefono">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+       <div class="col-xs-7">
+          <input type="text" class="form-control" placeholder="Observaciones">
+     
+       </div>
+       <div class="col-xs-5">
+      <input type="text" class="form-control" placeholder="Alertas">
+    </div>
+  </div>
+     
+   
+  <br>
+
+
+
+   <button type="button" class="btn btn-success btn-sm"> Generar Cita</button>
+  </form>
+
+
+
+     </div>
+     

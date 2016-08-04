@@ -1,0 +1,240 @@
+<body>
+<div class="cont_new" id="">
+    <div class="menu" id=""><a href="http://localhost:3000/calendars">
+     <%= image_tag '1467509018_Icon_Business_Set_00002_A.png', class: "icono_admision_new2" %><p class="parra">Agenda</p> </a></div>
+     <div class="menu" id=""><a href="http://localhost:3000/reports">
+    <%= image_tag '1467508472_vector_65_14.png', class: "icono_admision_new2" %><p class="parra">Reportes</p> </a></div>
+    <div class="menu" id=""><a href="">
+     <%= image_tag '1468874758_gnome-system-config.png', class: "icono_admision_new2" %><p class="parra">Configuracion</p> </a></div>
+   </div>
+
+<div class="social">
+   <ul style="list-style-type:none">
+   <li><a href="http://localhost:3000/">    
+   <%= image_tag 'atras.png', class: "atras" %> </a>
+   </li>     
+   </ul>         
+   </div>
+
+<div class="busqueda">
+  <label for="ejemplo_email_1">Tipo de Busqueda</label> 
+<div class="row">
+  <div class="col-xs-2">
+  <select class="form-control">
+  <option></option>
+  <option> No Documento</option>
+  <option> Nombre</option>
+  <option> No Ingreso</option>
+ 
+   
+     </select>
+     </div>
+     <div class="col-xs-2">
+    <input type="text" class="form-control" placeholder="Buscar">     
+  </div>
+  <button type="button" class="btn btn-primary btn-sm"> <%= image_tag 'visualizar.png', class: "ic" %>Buscar Paciente   </button>
+</div>
+<br>
+ 
+  
+
+   <div class="panel panel-default">
+  <div class="panel-heading">Usuarios Encontrados</div>
+ <table class="table">
+<thead>
+    <tr>
+      <th>Nombre</th>
+      <th>No Documento</th>
+      <th>No Evento</th>
+      <th>Tipo de Servicio</th>
+      <th>Codigo Item</th>    
+      <th>Fecha de Ingreso</th>
+      <th>Pendiente Atencion</th>   
+      <th><%= image_tag 'manual.png', class: "icono_orden" %></th>
+      <th><%= image_tag 'orden.png', class: "icono_orden" %></th>
+      <th><%= image_tag 'meds.png', class: "icono_orden" %></th>
+      </tr>
+  </thead>
+
+  <tbody>  
+      <tr>
+        <td>Juan Bautista</td>
+        <td>10358579</td>
+        <td>2154</td>
+        <td>Consulta</td>
+        <td>890701</td>       
+        <td>N/A</td>
+        <td>SI</td>        
+        <td><button type="button" class="btn btn-nuevo">Realizar H.C</button></td>       
+     
+    
+      </tr>
+
+  </tbody>
+ 
+  <tbody>
+  
+      <tr>
+        <td>Juan Bautista</td>
+        <td>10358579</td>
+        <td>3123</td>
+        <td>Procedimiento Terapeutico</td>
+        <td>890201</td>
+        <td>21/06/2016</td>
+        <td>no</td>        
+        <td><button type="button" class="btn btn-nuevo">Realizar H.C</button></td>
+        <td><button type="button" class="btn btn-info">Descar H.C</button></td>
+        <td><button type="button" class="btn btn-success">Descar Orden</button></td> 
+      </tr>
+
+  </tbody>
+  
+
+ 
+  </table>
+ 
+
+</div>
+</div>
+<div class="info2" ><h4>Realizar Ordenes medicas</h4>
+   
+  <label for="">Tipo Ordenamiento</label>  
+ <div class="row">
+     <div class="col-xs-12">
+
+     <select class="form-control">
+     <option></option>
+     <option>Medicamento / Insumo</option>
+     <option>Procedimiento Diagnostico</option>
+     <option>Procedimiento Quirurgico</option>
+     <option>Procedimiento Terapeutico</option>
+   
+     </select>
+     </div>
+
+
+
+</div>
+   <label for=""> Via de Administracion</label> 
+ <div class="row">
+     <div class="col-xs-12">
+   
+     <select class="form-control">
+     <option></option>
+     <option>Oral</option>  
+     <option>Intravenosa</option>
+     <option>Oftalmologica</option>
+     <option>Nasal</option>
+     <option>Parental</option>
+  
+     </select>
+     </div>
+  
+</div>
+  <label for="">Descripcion</label> 
+ <div class="row">     
+     <div class="col-xs-8">
+    <input type="text" class="form-control" placeholder="">
+     </div>
+     <button type="button" class="btn btn-warning btn-sm"> Buscar</button>
+ </div>
+<br>
+<div class="row">
+     <div class="col-xs-4">
+      <input type="text" class="form-control" placeholder="Cantidad">
+      </div>
+      <div class="col-xs-8">
+      <input type="text" class="form-control" placeholder="Periocidad">
+    </div>
+</div>
+<br>
+ <button type="button" class="btn btn-info btn-sm"> Agregar Orden</button>
+</form>
+   </div>
+<div class="historia">
+<br>
+   
+  <div class="row">
+
+   <div class="col-xs-6">
+    <input type="textarea" class="form-control" placeholder="Motivo de Consulta">
+  </div>      
+   <div class="col-xs-6">    
+    <input type="text" class="form-control" placeholder="Enfermedad Actual">
+    </div>
+   </div>
+   <br>
+ <div class="row">
+      <div class="col-xs-5">
+    <input type="text" class="form-control" placeholder="Examen Fisico">
+   </div> 
+   <div class="col-xs-4">    
+    <input type="text" class="form-control" placeholder="Diagnostico">
+    </div>
+    <button type="button" class="btn btn-default btn-sm"> <%= image_tag 'visualizar.png', class: "ic" %>Buscar DX   </button>
+ </div>
+   <br>
+   <div class="row">
+    <div class="col-xs-12">
+    <input type="text" class="form-control" placeholder="Analisis y Plan">
+    </div>
+   </div><br>
+   
+   <label class="history">Tipo Antecedente</label>  
+ <div class="row">
+     <div class="col-xs-3">
+
+     <select class="form-control">
+     <option></option>
+     <option>Quirurgicos</option>
+     <option>Ginecoobstretricos</option>
+     <option>Morbidos</option>
+     <option>Medicamentos</option>
+     <option>Alergias</option>
+     <option>Sociales</option>
+     <option>Inmunologicos</option>
+   
+     </select>
+
+     </div>
+     <div class="col-xs-5">
+    <input type="text" class="form-control" placeholder="Ingrese Antecedente">
+
+     </div>
+     <button type="button" class="btn btn-default btn-sm"> <%= image_tag 'forward.png', class: "ic" %>Agregar</button>
+
+      </div><br>
+      <div class="panel panel-default">
+  <div class="panel-heading">Antecedentes Registrados</div>
+ <table class="table">
+<thead>
+    <tr>
+      <th>Quirurgicos</th>
+      <th>Alergias</th>
+      <th>Inmunologicos</th>
+      <th>Medicamentos</th>
+      
+      </tr>
+  </thead>
+
+  <tbody>  
+      <tr>
+        <td>Remplazo de Rodilla</td>
+        <td>Penicilina</td>
+        <td>Vacuna Tetano</td>
+        <td>Tratamiento con Amoxicilina</td>
+              
+     
+    
+      </tr>
+
+  </tbody>
+
+  
+  
+   
+  
+
+</div>
+
+   </body>

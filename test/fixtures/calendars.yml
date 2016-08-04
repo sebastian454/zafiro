@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  users_id: 1
+  alertas: MyString
+  observaciones: MyString
+  fecha_cita: 2016-07-15 14:12:32
+  servicio: MyString
+  consultorio_id: 1
+  profesional_id: 1
+
+two:
+  users_id: 1
+  alertas: MyString
+  observaciones: MyString
+  fecha_cita: 2016-07-15 14:12:32
+  servicio: MyString
+  consultorio_id: 1
+  profesional_id: 1
